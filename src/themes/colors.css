@@ -1,0 +1,41 @@
+:root {
+    --color-bg-primary: #f8fafc;         /* slate-50 */
+    --color-bg-secondary: #e2e8f0;       /* slate-200 */
+    --color-bg-tertiary: #cbd5e1;        /* slate-300 */
+    --color-text-default: #1e293b;       /* slate-800 */
+    --color-text-secondary: #64748b;     /* slate-500 */
+    --color-primary: #3b82f6;            /* blue-500 */
+    --color-secondary: #6b7280;          /* gray-500 */
+    --color-accent: #8b5cf6;             /* violet-500 */
+    --color-success: #10b981;            /* emerald-500 */
+    --color-warning: #f59e0b;            /* amber-500 */
+    --color-error: #ef4444;              /* red-500 */
+    --color-border: #d1d5db;             /* gray-300 */
+    --color-border-light: #f3f4f6;       /* gray-100 */
+    --color-grid-lines: #64748b;         /* slate-400 */
+    --color-shadow-light: rgba(30, 41, 59, 0.07);  /* slate-800, 7% */
+    --color-shadow-dark: rgba(30, 41, 59, 0.18);   /* slate-800, 18% */
+    --color-particle-selected: #fbbf24;  /* amber-400 */
+    --color-particle-default: #94a3b8;   /* slate-400 */
+}
+
+[data-theme="dark"] {
+    --color-bg-primary: #0f172a;         /* slate-900 */
+    --color-bg-secondary: #1e293b;       /* slate-800 */
+    --color-bg-tertiary: #334155;        /* slate-700 */
+    --color-text-default: #f1f5f9;       /* slate-100 */
+    --color-text-secondary: #94a3b8;     /* slate-400 */
+    --color-primary: #60a5fa;            /* blue-400 */
+    --color-secondary: #9ca3af;          /* gray-400 */
+    --color-accent: #a78bfa;             /* violet-400 */
+    --color-success: #34d399;            /* emerald-400 */
+    --color-warning: #fbbf24;            /* amber-400 */
+    --color-error: #f87171;              /* red-400 */
+    --color-border: #4b5563;             /* gray-600 */
+    --color-border-light: #374151;       /* gray-700 */
+    --color-grid-lines: #475569;         /* slate-600 */
+    --color-shadow-light: rgba(241, 245, 249, 0.07);  /* slate-100, 7% */
+    --color-shadow-dark: rgba(15, 23, 42, 0.5);       /* slate-900, 50% */
+    --color-particle-selected: #facc15;  /* yellow-400 */
+    --color-particle-default: #64748b;   /* slate-500 */
+}
